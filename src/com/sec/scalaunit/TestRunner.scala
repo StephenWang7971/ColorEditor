@@ -2,6 +2,7 @@ package com.sec.scalaunit
 
 import com.sec.scalaunit.model.{UnitLogger, TestMethod, TestClass, TestTarget}
 import com.sec.scalaunit.exception.TestFailedException
+import java.lang.reflect.InvocationTargetException
 
 object TestRunner {
 
@@ -22,12 +23,36 @@ object TestRunner {
     }
   }
 
+  def failed(ex: InvocationTargetException) {
+    if (ex.getTargetException().isInstanceOf[TestFailedException]) {
+      failed(ex.getTargetException.asInstanceOf[TestFailedException]);
+    } else {
+      error(ex, "");
+    }
+  }
+
   def passed() {
     UnitLogger.info("PASSED.");
   }
 
   def error(ex: Exception, message: String) {
-    //TODO Show HTML result.
+    UnitLogger.info("ERROR.");
+    UnitLogger.info(message);
+
+    if (ex.isInstanceOf[InvocationTargetException]) {
+      val e: InvocationTargetException = ex.asInstanceOf[InvocationTargetException];
+      var targetExp: Throwable = e.getTargetException();
+      outputException(targetExp);
+    }
+
+    outputException(ex)
+  }
+
+
+  def outputException(ex: Throwable) {
+    UnitLogger.info("\t" + ex.getClass.getName);
+    val elements: Array[StackTraceElement] = ex.getStackTrace;
+    elements.foreach((element: StackTraceElement) => UnitLogger.info("\t" + element.toString));
   }
 
   def scanTestCases(): TestTarget = {
@@ -37,10 +62,10 @@ object TestRunner {
 
     val clazz: TestClass = new TestClass {
       var methods: List[TestMethod] = Nil;
-      val name: String = "test.com.sec.hwc.TestTimeServer";
+      val name: String = "test.com.sec.editor.TestColorAdapter";
     }
 
-    val methods: List[String] = "testCommonDate" :: "testCommonDate2" :: "testDaylightSavingTimeForLondon" :: Nil;
+    val methods: List[String] = "testKeyword" :: "testKeywordWithSymbol" ::"testCommonWord":: Nil;
 
     methods.foreach((name: String) => appendMethod(name, clazz));
 
@@ -72,6 +97,9 @@ object TestRunner {
       passed();
       passedCases += 1;
     } catch {
+      case ex:
+        InvocationTargetException => failed(ex);
+      failedCases += 1;
       case ex:
         TestFailedException => failed(ex);
       failedCases += 1;

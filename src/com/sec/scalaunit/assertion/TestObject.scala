@@ -36,7 +36,7 @@ class TestObject(obj: Object) {
       compareDateObject(expected)
       return;
     }
-    if (actual.equals(expected)) {
+    if (!actual.equals(expected)) {
       throw new TestFailedException(expected, actual, "");
     }
   }

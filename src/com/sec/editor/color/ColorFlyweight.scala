@@ -1,12 +1,5 @@
 package com.sec.editor.color
 
-/**
- * Created with IntelliJ IDEA.
- * User: stephenwang
- * Date: 13-9-19
- * Time: 下午1:42
- * To change this template use File | Settings | File Templates.
- */
 object ColorFlyweight {
   val RED: Color = new Color("#FF0000");
   val ORANGE: Color = new Color("#FF7700");

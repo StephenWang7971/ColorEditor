@@ -9,10 +9,10 @@ object Editor {
 
   def showText(text: String) {
     //TODO optimize.
-    var word :String = "";
+    var word: String = "";
     val length = 0 until text.length();
     for (i <- length) {
-      val char:Char = text.charAt(i);
+      val char: Char = text.charAt(i);
       if (isSymbol(char)) {
         output(word);
         output("" + char);
@@ -24,14 +24,14 @@ object Editor {
     output(word);
   }
 
-  def isSymbol(char : Char) : Boolean = {
+  def isSymbol(char: Char): Boolean = {
     if (char == ' ' || char == '.' || char == ',') {
-       return true;
+      return true;
     }
     return false;
   }
 
-  def output(word:String) {
+  def output(word: String) {
     val decoratedWord = ColorAdapter.decorate(word);
     print(decoratedWord);
   }
