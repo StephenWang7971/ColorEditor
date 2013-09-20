@@ -4,16 +4,18 @@
     <list default="true" id="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" name="Default" comment="" />
     <ignored path="ColorEditor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/ColorFlyweight.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379570762115" ignored="false" />
-    <file path="/Color.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379572499584" ignored="false" />
+    <file path="/ColorFlyweight.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379678479413" ignored="false" />
+    <file path="/Color.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379678594246" ignored="false" />
     <file path="/Client.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379569832584" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/sec/scalaunit/exception/TestFailedException.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379570779835" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/sec/scalaunit/assertion/TestSuite.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379569609826" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/sec/scalaunit/assertion/ScalaUnit.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379569609826" ignored="false" />
     <file path="/ColorFactory.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379571108138" ignored="false" />
-    <file path="/Editor.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379573646727" ignored="false" />
-    <file path="/TestColorAdapter.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379577502503" ignored="false" />
+    <file path="/Editor.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379678891066" ignored="false" />
+    <file path="/TestColorAdapter.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379679078996" ignored="false" />
     <file path="/TestRunner.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379577375627" ignored="false" />
+    <file path="/Glyph.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379679005251" ignored="false" />
+    <file path="/GlyphFlyweight.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379678472018" ignored="false" />
+    <file path="/ColorAdapter.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379678699541" ignored="false" />
+    <file path="/TestObject.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379679302928" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +74,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestRunner.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestRunner.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sec/scalaunit/TestRunner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="90" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.6794425">
+            <state line="72" column="58" selection-start="2156" selection-end="2156" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Glyph.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sec/editor/glyph/Glyph.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="22" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sec/editor/Client.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="43" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Editor.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sec/editor/Editor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="57" selection-start="481" selection-end="481" vertical-scroll-proportion="0.09921671">
+              <folding>
+                <element signature="e#24#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Color.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/Color.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlyphFlyweight.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sec/editor/glyph/GlyphFlyweight.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="91" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,10 +142,8 @@
       <file leaf-file-name="TestColorAdapter.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/sec/editor/TestColorAdapter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="20" selection-start="547" selection-end="561" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#29#73#0" expanded="true" />
-              </folding>
+            <state line="22" column="48" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +151,7 @@
       <file leaf-file-name="TestObject.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sec/scalaunit/assertion/TestObject.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="40" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
+            <state line="44" column="24" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,7 +160,7 @@
       <file leaf-file-name="ColorAdapter.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/ColorAdapter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="368" selection-end="374" vertical-scroll-proportion="0.0">
+            <state line="6" column="4" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,18 +178,20 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/sec/editor/color/ColorFactory.scala" />
         <option value="$PROJECT_DIR$/src/com/sec/editor/Client.scala" />
-        <option value="$PROJECT_DIR$/src/com/sec/editor/color/ColorAdapter.scala" />
-        <option value="$PROJECT_DIR$/src/com/sec/editor/color/Color.scala" />
-        <option value="$PROJECT_DIR$/src/com/sec/editor/Editor.scala" />
-        <option value="$PROJECT_DIR$/src/com/sec/editor/color/ColorFlyweight.scala" />
-        <option value="$PROJECT_DIR$/src/com/sec/scalaunit/assertion/TestObject.scala" />
-        <option value="$PROJECT_DIR$/src/test/com/sec/editor/TestColorAdapter.scala" />
         <option value="$PROJECT_DIR$/src/com/sec/scalaunit/TestRunner.scala" />
+        <option value="$PROJECT_DIR$/src/com/sec/editor/glyph/GlyphFlyweight.scala" />
+        <option value="$PROJECT_DIR$/src/com/sec/editor/color/Color.scala" />
+        <option value="$PROJECT_DIR$/src/com/sec/editor/color/ColorFlyweight.scala" />
+        <option value="$PROJECT_DIR$/src/com/sec/editor/color/ColorAdapter.scala" />
+        <option value="$PROJECT_DIR$/src/com/sec/editor/Editor.scala" />
+        <option value="$PROJECT_DIR$/src/test/com/sec/editor/TestColorAdapter.scala" />
+        <option value="$PROJECT_DIR$/src/com/sec/editor/glyph/Glyph.scala" />
+        <option value="$PROJECT_DIR$/src/com/sec/scalaunit/assertion/TestObject.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
+    <option name="x" value="20" />
     <option name="y" value="22" />
     <option name="width" value="1420" />
     <option name="height" value="773" />
@@ -158,7 +207,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectStructureProblems">
     <ignored-problems>
@@ -183,7 +232,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,7 +308,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="scalaunit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assertion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ColorEditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ColorEditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ColorEditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ColorEditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="glyph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,6 +392,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -308,13 +409,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -334,7 +435,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ColorEditor" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -368,6 +475,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -393,19 +513,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -466,8 +573,28 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="22" width="1420" height="773" extended-state="0" />
+    <frame x="20" y="22" width="1420" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -476,20 +603,20 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hudson Information" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39876354" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="BuildWatcher" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hudson Jobs" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2481805" sideWeight="0.48686245" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5131376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24745269" sideWeight="0.6707882" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5131376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -557,20 +684,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/Client.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sec/scalaunit/annotation/SetUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/ColorFlyweight.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="7" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
@@ -594,49 +707,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sec/scalaunit/annotation/SetUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="645" column="0" selection-start="24734" selection-end="24734" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/ColorFlyweight.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.036945812">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/Color.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="36" selection-end="36" vertical-scroll-proportion="0.073891625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/Client.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="31" selection-end="31" vertical-scroll-proportion="0.073891625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/Editor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="290" selection-end="290" vertical-scroll-proportion="0.48029557">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sec/scalaunit/assertion/TestObject.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="40" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -648,26 +724,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/ColorAdapter.scala">
+    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/Color.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="368" selection-end="374" vertical-scroll-proportion="0.0">
+        <state line="2" column="6" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/ColorFlyweight.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/glyph/GlyphFlyweight.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="91" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sec/scalaunit/TestRunner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="58" selection-start="2156" selection-end="2156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/Client.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/glyph/Glyph.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/sec/editor/TestColorAdapter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="547" selection-end="561" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#29#73#0" expanded="true" />
-          </folding>
+        <state line="22" column="48" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sec/scalaunit/TestRunner.scala">
+    <entry file="file://$PROJECT_DIR$/src/com/sec/scalaunit/assertion/TestObject.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="90" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.6794425">
+        <state line="44" column="24" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/ColorAdapter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/Editor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="57" selection-start="481" selection-end="481" vertical-scroll-proportion="0.09921671">
+          <folding>
+            <element signature="e#24#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

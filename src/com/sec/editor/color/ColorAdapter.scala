@@ -1,8 +1,11 @@
 package com.sec.editor.color
 
+import com.sec.editor.glyph.Glyph
+
 object ColorAdapter {
 
-  def decorate(text: String): String = {
+  //TODO find color from a map.
+  def decorate(text: String): Glyph = {
     var color: Color = null;
     if (text.equals("dwell")) {
       color = ColorFlyweight.RED;
@@ -18,12 +21,10 @@ object ColorAdapter {
       color = ColorFlyweight.BLUE;
     } else if (text.equals("moment")) {
       color = ColorFlyweight.VIOLET;
+    } else {
+      color = ColorFlyweight.BLACK;
     }
 
-    if (color != null) {
-      return "<font color='" + color + "'>" + text + "</font>";
-    } else {
-      return text;
-    }
+    return new Glyph(text, color);
   }
 }

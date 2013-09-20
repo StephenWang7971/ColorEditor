@@ -1,10 +1,11 @@
 package com.sec.editor
 
 import color.ColorAdapter
+import glyph.Glyph
 
 object Editor {
   //TODO use these attributes.
-  val MAX_COL: Int = 55;
+  val MAX_COL: Int = 40;
   val MAX_ROW: Int = 3;
 
   def showText(text: String) {
@@ -32,7 +33,6 @@ object Editor {
   }
 
   def output(word: String) {
-    val decoratedWord = ColorAdapter.decorate(word);
-    print(decoratedWord);
+    ColorAdapter.decorate(word).output();
   }
 }
