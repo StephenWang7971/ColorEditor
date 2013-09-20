@@ -4,25 +4,23 @@ import com.sec.editor.glyph.Glyph
 
 object ColorAdapter {
 
-  //TODO find color from a map.
+  val KEYWORDS = Map[String, Color] (
+    "dwell" -> ColorFlyweight.RED,
+    "past" -> ColorFlyweight.ORANGE,
+    "dream" -> ColorFlyweight.YELLOW,
+    "future" -> ColorFlyweight.GREEN,
+    "concentrate" -> ColorFlyweight.CYAN,
+    "mind" -> ColorFlyweight.BLUE,
+    "moment" -> ColorFlyweight.VIOLET
+  );
+
   def decorate(text: String): Glyph = {
     var color: Color = null;
-    if (text.equals("dwell")) {
-      color = ColorFlyweight.RED;
-    } else if (text.equals("past")) {
-      color = ColorFlyweight.ORANGE;
-    } else if (text.equals("dream")) {
-      color = ColorFlyweight.YELLOW;
-    } else if (text.equals("future")) {
-      color = ColorFlyweight.GREEN;
-    } else if (text.equals("concentrate")) {
-      color = ColorFlyweight.CYAN;
-    } else if (text.equals("mind")) {
-      color = ColorFlyweight.BLUE;
-    } else if (text.equals("moment")) {
-      color = ColorFlyweight.VIOLET;
-    } else {
+    //TODO NOT GOOD
+    if (KEYWORDS.get(text) == None) {
       color = ColorFlyweight.BLACK;
+    } else {
+      color = KEYWORDS.get(text).get;
     }
 
     return new Glyph(text, color);

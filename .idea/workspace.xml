@@ -14,7 +14,7 @@
     <file path="/TestRunner.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379577375627" ignored="false" />
     <file path="/Glyph.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379681814310" ignored="false" />
     <file path="/GlyphFlyweight.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379681449139" ignored="false" />
-    <file path="/ColorAdapter.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379678699541" ignored="false" />
+    <file path="/ColorAdapter.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379682205432" ignored="false" />
     <file path="/TestObject.scala" changelist="dd8e4a84-0ddc-4d57-b4c8-94edb085ad9d" time="1379681419198" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Editor.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Editor.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sec/editor/Editor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="35" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
+            <state line="5" column="4" selection-start="71" selection-end="71" vertical-scroll-proportion="0.19582245">
               <folding />
             </state>
           </provider>
@@ -119,10 +119,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlyphFlyweight.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GlyphFlyweight.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sec/editor/glyph/GlyphFlyweight.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="42" selection-start="4632" selection-end="4632" vertical-scroll-proportion="0.48757765">
+            <state line="127" column="42" selection-start="4632" selection-end="4632" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,7 +158,7 @@
       <file leaf-file-name="ColorAdapter.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/ColorAdapter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="6" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+            <state line="18" column="6" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,13 +178,13 @@
         <option value="$PROJECT_DIR$/src/com/sec/scalaunit/TestRunner.scala" />
         <option value="$PROJECT_DIR$/src/com/sec/editor/color/Color.scala" />
         <option value="$PROJECT_DIR$/src/com/sec/editor/color/ColorFlyweight.scala" />
-        <option value="$PROJECT_DIR$/src/com/sec/editor/color/ColorAdapter.scala" />
         <option value="$PROJECT_DIR$/src/com/sec/editor/Editor.scala" />
         <option value="$PROJECT_DIR$/src/test/com/sec/editor/TestColorAdapter.scala" />
         <option value="$PROJECT_DIR$/src/com/sec/scalaunit/assertion/TestObject.scala" />
         <option value="$PROJECT_DIR$/src/com/sec/editor/Client.scala" />
         <option value="$PROJECT_DIR$/src/com/sec/editor/glyph/Glyph.scala" />
         <option value="$PROJECT_DIR$/src/com/sec/editor/glyph/GlyphFlyweight.scala" />
+        <option value="$PROJECT_DIR$/src/com/sec/editor/color/ColorAdapter.scala" />
       </list>
     </option>
   </component>
@@ -563,7 +563,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="1420" height="773" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -577,14 +577,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="BuildWatcher" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hudson Jobs" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24745269" sideWeight="0.576507" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42349306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24745269" sideWeight="0.6707882" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42349306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -729,23 +729,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/ColorAdapter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sec/editor/Client.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="121" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/Editor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="35" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -759,7 +745,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sec/editor/glyph/GlyphFlyweight.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="42" selection-start="4632" selection-end="4632" vertical-scroll-proportion="0.48757765">
+        <state line="127" column="42" selection-start="4632" selection-end="4632" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/color/ColorAdapter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sec/editor/Editor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="71" selection-end="71" vertical-scroll-proportion="0.19582245">
           <folding />
         </state>
       </provider>
