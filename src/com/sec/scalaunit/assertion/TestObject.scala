@@ -32,6 +32,7 @@ class TestObject(obj: Object) {
   }
 
   def isEqualTo(expected: Object) {
+    //FIXME apply with assert of junit.
     if (expected.isInstanceOf[Date] && actual.isInstanceOf[Date]) {
       compareDateObject(expected)
       return;
@@ -41,7 +42,7 @@ class TestObject(obj: Object) {
     }
   }
 
-  def areSame(that:Object, other:Object) :Boolean = {
+  def areSame(that: Object, other: Object): Boolean = {
     //TODO implement it.
     return true;
   }

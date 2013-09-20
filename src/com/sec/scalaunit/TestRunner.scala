@@ -65,7 +65,7 @@ object TestRunner {
       val name: String = "test.com.sec.editor.TestColorAdapter";
     }
 
-    val methods: List[String] = "testKeyword" :: "testKeywordWithSymbol" ::"testCommonWord":: Nil;
+    val methods: List[String] = "testKeyword" :: "testKeywordWithSymbol" :: "testCommonWord" :: Nil;
 
     methods.foreach((name: String) => appendMethod(name, clazz));
 

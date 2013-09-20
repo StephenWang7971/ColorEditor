@@ -1,7 +1,6 @@
 package com.sec.editor
 
 import color.ColorAdapter
-import glyph.Glyph
 
 object Editor {
   //TODO use these attributes.
